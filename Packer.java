@@ -47,6 +47,8 @@ class Program327
             FileOutputStream fCombine = new FileOutputStream(PackedFile);
 
             System.out.println("Packing activity is started");
+            System.out.println("-------------------------------------------------------------------");
+
 
             for(int i=0; i<Arr.length; i++)
             {
