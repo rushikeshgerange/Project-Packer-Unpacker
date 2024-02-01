@@ -32,7 +32,7 @@ class Program327
 
         System.out.println("Packed file is successfully created in current directory");
 
-       File fobj = new File(DirectoryName);     // Creating the directory
+       File fobj = new File(DirectoryName);     
        bRet = fobj.isDirectory();
 
        if(bRet == true)
@@ -48,20 +48,17 @@ class Program327
 
             System.out.println("Packing activity is started");
 
-            // Travel Directory
             for(int i=0; i<Arr.length; i++)
             {
                 Header = Arr[i].getName()+ " " + Arr[i].length();
                 
-                for(int j=Header.length(); j<100; j++)              // Creating header with size = 100
+                for(int j=Header.length(); j<100; j++)              
                 {
-                    Header = Header + " ";                          // Add extra white spaces
+                    Header = Header + " ";                          
                 }
 
-                // Convert string header into byte array
                 byte hArr[] = Header.getBytes();
 
-                // Write header into packed file
                 fCombine.write(hArr,0,100);
 
                 FileInputStream fiobj = new FileInputStream(Arr[i]);
