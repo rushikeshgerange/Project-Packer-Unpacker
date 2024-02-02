@@ -10,7 +10,7 @@ class Program327
         int iRet = 0;
 
         System.out.println("-------------------------------------------------------------------");
-        System.out.println("-------------------Marvellous Packer Unpacker-----------------------");
+        System.out.println("-----------------------------Packer Unpacker-----------------------");
         System.out.println("-------------------------------------------------------------------");
 
         Scanner sobj = new Scanner(System.in);
@@ -18,7 +18,7 @@ class Program327
        System.out.println("Enter the name of Directory : ");
        String DirectoryName = sobj.nextLine();
 
-       System.out.println("Enter the name of packed file that you want to store another file");
+       System.out.println("Enter the name of packed file that you want to store another files");
        String PackedFile = sobj.nextLine();
 
        File fobjPack = new File(PackedFile);
@@ -79,7 +79,7 @@ class Program327
             System.out.println("Total files packed successfully : " +Arr.length); 
 
             System.out.println("-------------------------------------------------------------------");
-            System.out.println("------------Thank You For Using Marvellous Packer Unpacker-----------");
+            System.out.println("----------------Thank You For Using Packer Unpacker----------------");
             System.out.println("-------------------------------------------------------------------");
 
             fCombine.close();
