@@ -14,7 +14,7 @@ class Program355
         int iCnt = 0;
 
         System.out.println("-------------------------------------------------------------------");
-        System.out.println("-------------------Marvellous Packer Unpacker-----------------------");
+        System.out.println("---------------------------Packer Unpacker-------------------------");
         System.out.println("-------------------------------------------------------------------");
 
         Scanner sobj = new Scanner(System.in);
@@ -60,7 +60,7 @@ class Program355
         System.out.println("Total files unpacked successfully : " +iCnt); 
 
         System.out.println("-------------------------------------------------------------------");
-        System.out.println("------------Thank You For Using Marvellous Packer Unpacker----------");
+        System.out.println("-----------------Thank You For Using Packer Unpacker---------------");
         System.out.println("-------------------------------------------------------------------");
 
         fiobj.close();
